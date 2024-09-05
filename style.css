@@ -1,0 +1,57 @@
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Instagram Sans Script', sans-serif;
+  font-size: 55px;
+  margin-top: 130px;
+
+
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 3px;
+  width: 20%;
+}
+
+
+#username {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+
+}
+
+#password {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  background-color: #0095f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 22%;
+  font-weight: bold;
+  margin: 10px;
+}
