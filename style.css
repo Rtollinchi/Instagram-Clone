@@ -8,8 +8,6 @@ h1 {
   font-family: 'Instagram Sans Script', sans-serif;
   font-size: 55px;
   margin-top: 130px;
-
-
 }
 
 form {
@@ -17,7 +15,6 @@ form {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
 }
 
 input {
@@ -55,3 +52,105 @@ button {
   font-weight: bold;
   margin: 10px;
 }
+
+/* feed page styling  */
+
+.feed-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  background-color: #000;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-family: 'Instagram Sans Script', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-icons i {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.post {
+  background-color: #000;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.feed-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.post-actions i {
+  font-size: 24px;
+}
+
+.likes {
+  font-weight: bold;
+}
+
+.caption {
+  margin: 5px 0;
+}
+
+.comments {
+  color: #8e8e8e;
+}
+
+
